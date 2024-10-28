@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assests/shree-logo.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=copyright" />   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+    <script src="https://kit.fontawesome.com/508ca036b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./output.css">
+    <script src="./app.js" defer></script>
+    <title>Shree Ayurveda</title>
+</head>
+<body>
+  <popup class="bg-gray-100 flex items-center justify-center overflow-hidden">
+      <!-- Popup Form Section -->
+    <div id="popupForm" class="fixed  inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 overflow-hidden">
+      <div id="pop" class="bg-[#F6FCDF] w-[90%] sm:w-[80%]  md:w-[550px] max-w-[550px]  h-auto p-6 rounded-lg shadow-lg relative">
+        <button id="closePopup" class="absolute top-2 right-2 size-10 text-gray-500 hover:text-gray-800">
+          <i class="fa fa-xmark"></i>
+        </button>
+        <div class="">
+          <h1 id=""  class="text-5xl tracking-wide font-bold text-amber-800 pb-6 my-3 flex justify-center"><label for="inp1">For More Info</label></h1>
+          <h2 class="text-3xl font-style font-semibold text-amber-700 pb-3 mb-4 flex justify-center">Feel Free to Call Us</h2>
+          <p class="text-3xl font-style font-semibold text-amber-700 pb-1 mb-4 flex justify-center">Contact Us <i>&#x1f447</i></p>
+          <p class="text-2xl  font-semibold text-amber-700 my-3 mb-4 border-2 border-green-800 mx-2 py-2 px-1 rounded-lg shadow-xl flex justify-center transition-all delay-200 ease-in-out transform hover:scale-105">+91 78388 87002</p>
+          <h2 class="text-4xl tracking-wide font-bold text-amber-800 py-2 my-3 flex justify-center">OR</h2>
+          <form action=" " class="flex-row ">
+            <label for="inp1"></label>
+            <input id="inp1" type="text" placeholder="Enter Your Name" class=" w-full px-3 py-2 mb-4 border rounded-md focus:outline-none focus:border-blue-500">
+            <label for="inp2"></label>
+            <input type="email" id="inp2" placeholder="Enter Your Email" class=" w-full px-3 py-2 mb-4 border rounded-md focus:outline-none focus:border-blue-500">
+            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </popup>
+    <header>
+        <!-- contact  -->
+        <div class="max-w-full h-10 bg-green-800 overflow-hidden">
+            <marquee direction="right" scrolldelay="100" loop scrollamount="5" class="py-1">
+                <div class="flex items-center space-x-36">
+                    <p class="font-semibold text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block"><i class="fa fa-envelope"></i>shreeayurvedaainfo@gmail.com</a></p>
+                    <p class="font-medium text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">Contact Us: +91 78388 87002</a></p>
+                    <p class="font-semibold text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block"> <i class="fa fa-envelope"></i>shreeayurvedaainfo@gmail.com</a></p>
+                    <p class="font-medium text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">Contact Us: +91 78388 87002</a></p>
+                    <p class="font-semibold text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block"> <i class="fa fa-envelope"></i>shreeayurvedaainfo@gmail.com </a></p>
+                    <p class="font-medium text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">Contact Us: +91 97184 84809</a></p>
+                    <!-- Duplicate content for seamless looping -->
+                    <p class="font-semibold text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block"> <i class="fa fa-envelope"></i>shreeayurvedaainfo@gmail.com </a></p>
+                    <p class="font-medium text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">Contact Us: +91 78388 87002</a></p>
+                    <p class="font-semibold text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block"> <i class="fa fa-envelope"></i>shreeayurvedaainfo@gmail.com </a></p>
+                    <p class="font-medium text-white text-xl"><a href="" class="hover:text-[#F6FCDF] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">Contact Us: +91 78388 87002</a></p>
+                </div>
+              </marquee>
+        </div> 
+        <!-- navigation  -->
+        <nav class="mt-2 bg-white shadow-lg">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                  <img class="size-12 md:h-14 md:w-auto  " src="./assests/Logo.png" alt="Brand logo"><a href=""></a>
+                </div>
+                <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline space-x-5">
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      Home
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      Shop
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a>
+                    <!-- <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      Blog
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a> -->
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      Shipping Info
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      About Us
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-md font-semibold relative group hover:font-bold hover:text-[#859F3D] transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      Contact Us
+                      <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 ease-in-out group-hover:w-full">
+                    </a>
+                  </div>
+                </div>
+                <div class="hidden md:block">
+                  <div class="ml-4 flex items-center md:ml-6 gap-5">
+                    <a href="tel:+918860998999" class="text-gray-700  hover:text-gray-900 px-3 py-2 border-2 border-green-700 bg-[#F6FCDF] rounded-lg  text-sm font-medium hover:font-bold  transition-all duration-300 ease-in-out transform hover:scale-110 inline-block">
+                      +91 78388 87002
+                    </a>
+                    <button class="bg-[#F6FCDF] px-2 py-1 border-2 border-green-700 rounded-md text-gray-400 hover:text-black transition-all duration-300 ease-in-outtransform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                      <i class="fa fa-cart-shopping"></i>    
+                    </button>
+                </div>
+              </div>
+              <!-- mobile -->
+              <nav class=" md:hidden mt-2 bg-white ">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden">
+                      <button id="mobile-menu-button" class="text-gray-700 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                      </button>
+                    </div>
+              
+                    <!-- Desktop menu -->
+                    <div class="hidden md:block">
+                      <div class="ml-10 flex items-baseline space-x-5">
+                        <!-- Your existing desktop menu items -->
+                      </div>
+                    </div>
+                    
+                    <!-- Desktop call and cart buttons -->
+                    <div class="hidden md:block">
+                      <!-- Your existing call and cart buttons -->
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Mobile menu, show/hide based on menu state -->
+                <div id="mobile-menu" class="md:hidden fixed inset-0 bg-white z-50 flex flex-col items-center justify-center">
+                  <button id="close-mobile-menu" class="absolute top-4 right-4 text-gray-700 hover:text-gray-900">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                  </button>
+                  <div class="flex flex-col items-center space-y-4">
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-lg font-semibold">Home</a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-lg font-semibold">Shop</a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-lg font-semibold">Shipping Info</a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-lg font-semibold">About Us</a>
+                    <a href="#" class="text-gray-700 px-3 py-2 rounded-md text-lg font-semibold">Contact Us</a>
+                  </div>
+                  <div class="mt-8">
+                    <a href="tel:+919718484809" class="text-gray-700 hover:text-gray-900 px-3 py-2 border-2 border-green-700 bg-[#F6FCDF] rounded-lg text-lg font-medium">
+                      +91 97184 84809
+                    </a>
+                  </div>
+                </div>
+              </nav>
+              
+        </nav>
+        <div class="relative md:mt-3 max-w-full sm:h-80 md:h-96 lg:h-[30rem] overflow-hidden object-contain">
+          <!-- Carousel Items -->
+          <div class="carousel-images flex transition-transform duration-700 ease-in-out">
+            <!-- Slide 1 -->
+            <div class="flex-shrink-0 max-w-full h-full bg-cover bg-center relative" style="background-image: url('./assests/Screenshot\ 2024-10-24\ at\ 6.55.28\ PM.png');">
+              <img src="./assests/river.png" alt="" class="w-[414px] md:w-[1680px] h-[129px] md:h-[525px] object-cover">
+              <div class="absolute inset-0 flex items-center justify-center">
+                <h2 class="text-white text-lg md:text-5xl font-bold text-center px-4 bg-black bg-opacity-40 py-2 rounded">
+                  <span class="typing-text animate-pulse" data-text="Healing Naturally, Living Fully"></span>
+                </h2>
+              </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="flex-shrink-0 max-w-full h-full bg-cover bg-center relative" style="background-image: url('./assests/Screenshot\ 2024-10-24\ at\ 6.55.28\ PM.png');">
+              <img src="./assests/home banner3-Desk.3477504e.png" alt="" class="w-full h-full object-contain overflow-hidden">
+              <div class="absolute inset-0 flex items-center justify-center">
+                <h2 class="text-white text-lg md:text-5xl font-bold text-center bg-black px-4  bg-opacity-40 py-2 rounded">
+                  <span class="typing-text animate-pulse" data-text="Empowering Health Through Ayurveda"></span>
+                </h2>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="flex-shrink-0 max-w-full h-full bg-cover bg-center relative" style="background-image: url('./assests/Screenshot\ 2024-10-24\ at\ 6.57.55\ PM.png');">
+              <img src="./assests/Three wish.png" alt="" class="w-full h-full object-cover">
+              <div class="absolute inset-0 flex items-center justify-center">
+                <h2 class="text-white text-lg md:text-5xl font-bold text-center px-4 bg-black bg-opacity-40 py-2 rounded">
+                  <span class="typing-text animate-pulse" data-text="Rooted in Tradition, Focused on Wellness"></span>
+                </h2>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Carousel Controls (Optional) -->
+          <button id="prevBtn" class="hidden lg:block lg:absolute top-1/2 left-0 transform -translate-y-1/2 px-4 py-2 lg:bg-slate-300 lg:text-black lg:rounded-s-lg">Prev</button>
+          <button id="nextBtn" class="hidden lg:block lg:absolute top-1/2 right-0 transform -translate-y-1/2 px-4 py-2 lg:bg-slate-300 lg:text-black lg:rounded-r-lg">Next</button>
+        </div>
+        
+        
+    </header>
+    <main class="mt-5 mx-2 md:mx-[270px] px-3 ">
+      <div id="main" class="flex justify-center gap-2 md: mt-5 ">
+        <h1 class="text-2xl  md:text-5xl font-bold font-body">Welcome to </h1>
+        <span class="relative inline-block">
+          <h1 class="text-2xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]">ShreeAyurveda</h1>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-9 text-[#859F3D]" aria-hidden="true">
+            <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                  fill="none" stroke="currentColor" stroke-width="8"
+                  class="animate-draw"></path>
+          </svg>        
+      </div>
+      <div class="mt-5 flex flex-col md:max-w-[1140px] md:h-[435px]  md:flex-row gap-6 md:gap-10 items-start md:items-center">
+        <img class="w-full md:max-w-[441px] md:h-[343px] max-w-md border-2 rounded-md p-4 shadow-xl" src="./assests/close-up-bowl-with-plants.png" alt="Dr. V.K Thakur">
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            ShreeAyurveda: <span class=" text-[#859F3D]">Personalized Ayurvedic Healing </span>   
+          </h1>
+          <p class="font-body font-semibold text-center md:text-lg text-md">
+            At ShreeAyurveda, we are dedicated to bringing the ancient wisdom of Ayurveda to your doorstep through personalized, holistic healthcare solutions. We specialize in providing Ayurvedic treatments using a wide range of Ayurvedic and herbal medicines, ensuring that you receive natural, effective, and safe remedies for your health concerns.        </div>
+      </div>
+      <!-- 2        -->
+      <div id="main" class="flex justify-center gap-2 md: mt-9 ">
+          <h1 class="text-3xl  md:text-5xl font-bold font-body">Why</h1>
+          <span class="relative inline-block">
+            <h1 class="text-3xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]">ShreeAyurveda?</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-9 text-[#859F3D]" aria-hidden="true">
+              <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                    fill="none" stroke="currentColor" stroke-width="8"
+                    class="animate-draw"></path>
+            </svg>        
+        </div>
+        <div class="mt-7 flex flex-col-reverse md:flex-row md:max-w-[1140px] md:h-[435px] gap-6 md:gap-10 items-center">
+          <div class="flex flex-col w-full md:w-1/2">
+            <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+              Ancient Healing:<span class="text-[#859F3D]"> Timeless Health</span> 
+            </h1>            
+            <p class="font-body font-semibold text-center text-md md:text-lg">
+              Ayurvedic medicine, traditional system of Indian medicine. Ayurvedic medicine is an example of a well-organized system of traditional health care, both preventive and curative, that is widely practiced in parts of Asia. Ayurveda has a long tradition behind it, having originated in India perhaps as much as 3,000 years ago. Today it remains a favoured form of health care in large parts of the Eastern world, especially in India, where a large percentage of the population uses this system exclusively or combined with modern medicine.
+            </p>
+          </div>
+          <img class="w-full md:w-1/2 max-w-md md:max-w-[441px] md:h-[343px] border-2 rounded-md p-4 shadow-xl" src="./assests/ayurveda image.png" alt="Ayurveda">
+        </div>        
+    </main>
+    <section class="mt-10 py-5 max-w-full h-auto border-2 md:shadow-[0_0_20px_rgba(0,0,0,0.3)]  md:bg-gradient-to-r bg-gradient-to-t from-lime-100 via-lime-300 to-lime-200 ">
+      <div class="" >
+        <div class="flex justify-center pt-5">
+          <!-- Company Name -->
+          <h1 class="font-style text-4xl text-black md:text-lime-800 md:text-6xl md:font-semibold mix-blend-luminosity">--- Why Ayurveda ---</h1>
+        </div>
+        <div class="flex md:flex-row md:justify-around md:items-baseline md:pb-9 flex-col space-y-10 justify-center items-center mt-9">
+          <!-- 1  -->
+          <div class="flex flex-col items-center justify-center space-y-4">
+            <img class="h-24 w-auto border-2 md:border-green-700 p-3 rounded-full transition-all duration-300 ease-in-out transform hover:scale-110" src="./assests/leaf.png" alt="100% Herbal & Natural">
+            <h1 class="text-center font-semibold text-lg  transition-all duration-300 ease-in-out transform hover:scale-100 md:text-2xl md:font-bold">100% Herbal & Natural</h1>
+          </div>
+          <!-- 2  -->
+          <div class="flex flex-col items-center justify-center space-y-4">
+            <img class="h-24 w-auto border-2 p-3 md:border-green-700 rounded-full transition-all duration-300 ease-in-out transform hover:scale-110" src="./assests/result.png" alt="100% Herbal & Natural">
+            <h1 class="text-center font-semibold text-lg md:text-2xl md:font-bold">Lab Tested Products</h1>
+          </div>
+          <!-- 3  -->
+          <div class="flex flex-col items-center justify-center space-y-4">
+            <img class="h-24 w-auto border-2 p-3 md:border-green-700  rounded-full transition-all duration-300 ease-in-out transform hover:scale-110" src="./assests/side-effect.png" alt="100% Herbal & Natural">
+            <h1 class="text-center font-semibold text-lg md:text-2xl md:font-bold">No Side Effects</h1>
+          </div>
+          <!-- 4  -->
+          <div class="flex flex-col items-center justify-center space-y-4">
+            <img class="h-24 w-auto border-2 p-3 md:border-green-700  rounded-full transition-all duration-300 ease-in-out transform hover:scale-110" src="./assests/fiber.png" alt="100% Herbal & Natural">
+            <h1 class="text-center font-semibold text-lg md:text-2xl md:font-bold">Dietary Based</h1>
+          </div>
+        </div>        
+        </div>
+      </div>
+    </section>
+    <!-- This is for the natural Herbs  -->
+    <section class="mt-5 mx-2 md:mx-[270px] px-3">
+      <div id="main" class="flex justify-center gap-2 md: mt-9 ">
+        <h1 class="text-3xl  md:text-5xl font-bold font-body">Importance of </h1>
+        <span class="relative inline-block">
+          <h1 class="text-3xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]"> Herbs?</h1>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-10 text-[#859F3D]" aria-hidden="true">
+            <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                  fill="none" stroke="currentColor" stroke-width="9"
+                  class="animate-draw"></path>
+          </svg>        
+      </div>
+      <div class="mt-5 flex flex-col md:max-w-[1140px] md:h-[435px]  md:flex-row gap-6 md:gap-10 items-start md:items-center">
+        <img class="w-full md:max-w-[441px] md:h-[343px] max-w-md border-2 rounded-md p-4 shadow-xl" src="./assests/tulsi.png" alt="tulsi">
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Tulsi:(<span class=" text-[#859F3D] font-style">Holy basil</span>) 
+          </h1>
+          <p class="font-body font-semibold text-center md:text-lg text-md">
+            तुलसी को आयुर्वेद में "जड़ी-बूटियों की रानी" कहा गया है, क्योंकि इसमें अनेक औषधीय गुण होते हैं। तुलसी का सेवन रोग प्रतिरोधक क्षमता को बढ़ाता है, जिससे सर्दी-खांसी, बुखार और मौसमी संक्रमणों से बचाव होता है। इसमें एंटी-बैक्टीरियल, एंटी-वायरल और एंटी-फंगल गुण होते हैं, जो शरीर को संक्रमण से सुरक्षित रखते हैं। तुलसी श्वसन तंत्र को साफ करने, अस्थमा, ब्रोंकाइटिस और साइनस जैसी समस्याओं में भी सहायक होती है। इसके अलावा, तुलसी तनाव को कम करने, पाचन सुधारने और त्वचा में चमक लाने में भी फायदेमंद होती है। तुलसी का नियमित सेवन संपूर्ण स्वास्थ्य के लिए लाभकारी होता है।
+          </div>
+      </div>
+      <!-- 2nd row  -->
+      <div class="mt-7 flex flex-col-reverse md:flex-row md:max-w-[1140px] md:h-[435px] gap-6 md:gap-10 items-center">
+        <div class="flex flex-col w-full md:w-1/2">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Brahmi:(<span class="text-[#859F3D] font-style">Bacopa monnieri</span>) 
+          </h1>            
+          <p class="font-body font-semibold text-center text-md md:text-lg">
+            ब्रह्मी आयुर्वेद में एक महत्वपूर्ण औषधि है, जो विशेष रूप से मस्तिष्क और मानसिक स्वास्थ्य के लिए लाभकारी मानी जाती है। यह याददाश्त, एकाग्रता और मानसिक स्पष्टता को बढ़ाने में सहायक है, जिससे पढ़ाई करने वाले विद्यार्थियों और मानसिक कार्य में लगे लोगों के लिए यह विशेष रूप से उपयोगी होती है। ब्रह्मी तनाव और चिंता को कम करती है और मस्तिष्क को शांति प्रदान करती है। इसमें एंटीऑक्सीडेंट गुण होते हैं, जो मस्तिष्क की कोशिकाओं को स्वस्थ रखते हैं और आयु संबंधी समस्याओं को दूर करने में सहायक होते हैं। ब्रह्मी का नियमित सेवन मानसिक संतुलन बनाए रखता है और संज्ञानात्मक कार्यक्षमता को संपूर्ण रूप से बेहतर बनाता है।          </p>
+        </div>
+        <img class="w-full md:w-1/2 max-w-md md:max-w-[441px] md:h-[343px] border-2 rounded-md p-4 shadow-xl" src="./assests/brahmi.png" alt="Ayurveda">
+      </div>  
+    </section>
+  
+    <!-- what we offer  -->
+    <section class="mt-6 border  py-3 rounded-lg mx-5 shadow-[0_0_10px_rgba(0,0,0,0.2)] md:shadow-2xl  md:bg-gradient-to-r bg-gradient-to-br from-lime-500 via-lime-100 to-lime-500 ">
+      <div class="mb-5 pb-5">
+        <div class="flex justify-center gap-2">
+          <span class="text-3xl md:text-5xl font-bold font-body pb-3 text-amber-800 ">What We</span> 
+          <span class="relative inline-block">
+            <h1 class="text-3xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]"> Offer </h1>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-9 text-[#859F3D]" aria-hidden="true">
+              <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                    fill="none" stroke="currentColor" stroke-width="8"
+                    class="animate-draw"></path>
+          </svg>   
+        </div>
+        <!-- flip cards  -->
+        <div class="md:flex md:py-5 ">
+           <!-- first card  -->
+          <div class="flex justify-center items-center w-full p-4 ">
+            <div class="flip-card w-72 h-80 perspective-1000">
+              <div class="flip-card-inner w-full h-full transition-transform duration-700 transform-style-preserve-3d">
+                <div class="flip-card-front absolute w-full h-full backface-hidden bg-[#F6FCDF] flex items-center justify-center text-amber-800 text-2xl font-style font-bold rounded-lg  shadow-xl ">
+                  <p class="text-center px-4">Comprehensive Ayurvedic Treatment <i class="fa-solid fa-notes-medical"></i> :</p>
+                </div>
+                <div class="flip-card-back absolute w-full h-full backface-hidden bg-lime-600 flex items-center justify-center text-white text-2xl font-bold rounded-lg transform rotate-y-180">
+                  <p class="text-center text-sm px-1 pt-4">   ShreeAyurveda blends traditional Ayurvedic knowledge with modern convenience. Our treatments focus on restoring balance to the body, mind, and spirit using only authentic Ayurvedic and herbal medicines. Whether you are dealing with chronic health conditions, stress, or simply looking to improve your overall well-being, we have solutions tailored to your needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second card  -->
+          <div class="flex justify-center items-center w-full p-4">
+            <div class="flip-card w-72 h-80 perspective-1000">
+              <div class="flip-card-inner w-full h-full transition-transform duration-700 transform-style-preserve-3d">
+                <div class="flip-card-front absolute w-full h-full backface-hidden bg-[#F6FCDF] flex items-center justify-center text-amber-800 text-2xl font-style  font-bold rounded-lg shadow-xl">
+                  <p class="text-center px-4">Online Consultation <i class="fa fa-globe"></i> :</p>
+                </div>
+                <div class="flip-card-back absolute w-full h-full backface-hidden bg-lime-600  flex items-center justify-center text-white text-2xl font-bold rounded-lg transform rotate-y-180">
+                  <p class="text-sm text-center px-1 pt-4">  Understanding that health is personal, we provide <span class="ext-bold text-green-900">free online consultations with our team of highly experienced Ayurvedic doctors.</span>Through these consultations, you’ll receive individualized care plans based on your unique body constitution (Prakriti), current health conditions, and lifestyle habits. Our doctors assess your health holistically and suggest treatments that focus on long-term wellness rather than just symptom management.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- third card  -->
+          <div class="flex justify-center items-center w-full p-4">
+            <div class="flip-card w-72 h-80 perspective-1000">
+              <div class="flip-card-inner w-full h-full transition-transform duration-700 transform-style-preserve-3d">
+                <div class="flip-card-front absolute w-full h-full backface-hidden bg-[#F6FCDF]  flex items-center justify-center  text-amber-800 text-2xl font-style  font-bold rounded-lg shadow-xl">
+                  <p class="text-center px-4">Convenient Medicine Delivery <i class="fa fa-truck"></i> :</p>
+                </div>
+                <div class="flip-card-back absolute w-full h-full backface-hidden bg-lime-600  flex items-center justify-center text-white text-2xl font-bold rounded-lg transform rotate-y-180">
+                  <p class="text-center text-sm px-1 pt-4">   Once your personalized treatment plan is in place, we ensure that your prescribed medicines are delivered straight to your home. Our reliable delivery service covers a wide range of locations, ensuring timely and secure delivery of the Ayurvedic medicines, so you can start your treatment without delay.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- forth card  -->
+          <div class="flex justify-center items-center w-full p-4">
+            <div class="flip-card w-72 h-80 perspective-1000">
+              <div class="flip-card-inner w-full h-full transition-transform duration-700 transform-style-preserve-3d">
+                <div class="flip-card-front absolute w-full h-full backface-hidden bg-[#F6FCDF]  flex items-center justify-center  text-amber-800 text-2xl font-style  font-bold rounded-lg shadow-xl">
+                  <p class="text-center px-4">Cash on Delivery (COD) Service <i class="fa fa-credit-card"></i>:</p>
+                </div>
+                <div class="flip-card-back absolute w-full h-full backface-hidden bg-lime-600  flex items-center justify-center text-white text-2xl font-bold rounded-lg transform rotate-y-180">
+                  <p class="text-sm text-center px-1 pt-4">     To make your experience even more seamless, we offer <span class="text-bold text-green-900"> cash on delivery (COD)</span> options for your convenience. You can pay for your medicines only when they arrive at your doorstep, giving you peace of mind with every purchase.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- 2 part  -->
+    <section class="mt-5 mx-2 md:mx-[270px] px-3">
+      <div class="mt-5 flex flex-col md:max-w-[1140px] md:h-[435px]  md:flex-row gap-6 md:gap-10 items-start md:items-center">
+        <img class="w-full md:max-w-[441px] md:h-[343px] max-w-md border-2 rounded-md p-4 shadow-xl" src="./assests/giloy.png" alt="giloy">
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Giloy: (<span class=" text-[#859F3D] font-style">Tinospora cordifolia </span>)   
+          </h1>
+          <p class="font-body font-semibold text-center md:text-lg text-md">
+            गिलोय को आयुर्वेद में "अमृत" के समान माना गया है, क्योंकि यह कई स्वास्थ्य लाभ प्रदान करता है। यह रोग प्रतिरोधक क्षमता को बढ़ाने में सहायक है, जिससे शरीर को संक्रमणों से लड़ने की शक्ति मिलती है। गिलोय में एंटी-इंफ्लेमेटरी और एंटीऑक्सीडेंट गुण होते हैं, जो सूजन को कम करने और शरीर को हानिकारक फ्री रेडिकल्स से बचाने में मदद करते हैं। यह बुखार, खासकर डेंगू और मलेरिया जैसे मौसमी बुखार में राहत प्रदान करता है। इसके अलावा, गिलोय पाचन तंत्र को सुधारता है, रक्त शुद्ध करता है, और डायबिटीज के रोगियों के लिए भी फायदेमंद होता है, क्योंकि यह ब्लड शुगर लेवल को नियंत्रित करने में सहायक है। गिलोय का नियमित सेवन शरीर को संपूर्ण रूप से स्वस्थ बनाए रखता है।
+      </div>
+      </div>
+      <!-- 2nd row  -->
+      <div class="mt-7 flex flex-col-reverse md:flex-row md:max-w-[1140px] md:h-[435px] gap-6 md:gap-10 items-center">
+        <div class="flex flex-col w-full md:w-1/2">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Haldi:(<span class="text-[#859F3D] font-style"> 
+              Turmeric</span>) 
+          </h1>            
+          <p class="font-body font-semibold text-center text-md md:text-lg">
+            हल्दी एक अत्यंत गुणकारी आयुर्वेदिक औषधि है, जो अपने एंटी-इंफ्लेमेटरी, एंटी-बैक्टीरियल और एंटीऑक्सीडेंट गुणों के लिए प्रसिद्ध है। यह सूजन और चोटों में राहत प्रदान करती है और संक्रमण से बचाने में सहायक होती है। हल्दी का सेवन इम्यून सिस्टम को मजबूत करता है, जिससे शरीर बीमारियों से लड़ने में सक्षम बनता है। यह त्वचा के लिए भी फायदेमंद है, जिससे दाग-धब्बे कम होते हैं और त्वचा में प्राकृतिक चमक आती है। हल्दी पाचन तंत्र को सुधारती है, जिगर को स्वस्थ रखती है, और रक्त शुद्ध करती है। इसके नियमित सेवन से जोड़ों का दर्द और गठिया जैसी समस्याओं में भी राहत मिलती है। संपूर्ण स्वास्थ्य के लिए हल्दी का सेवन अत्यधिक लाभकारी है।
+          </p>
+        </div>
+        <img class="w-full md:w-1/2 max-w-md md:max-w-[441px] md:h-[343px] border-2 rounded-md p-4 shadow-xl" src="./assests/haldi2.png" alt="Ayurveda">
+      </div>  
+    </section>
+    <hr>
+    <!-- what's our Vision  -->
+    <section class="mt-6 my-8 border  md:mx-[270px] px-3  py-3 rounded-lg mx-5 shadow-[0_0_10px_rgba(0,0,0,0.2)] md:shadow-2xl bg-gradient-to-tl from-lime-300 md:transition-all delay-200 ease-in-out transform md:hover:scale-110  ">
+      <div class="mb-5 pb-5">
+        <div class="flex justify-center gap-2">
+          <span class="text-3xl md:text-5xl font-bold font-body pb-3 text-amber-800 ">What Our</span> 
+          <span class="relative inline-block">
+            <h1 class="text-3xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]"> Vision</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-9 text-[#859F3D]" aria-hidden="true">
+              <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                    fill="none" stroke="currentColor" stroke-width="8"
+                    class="animate-draw"></path>
+          </svg>   
+        </div>
+        <div class="mt-5 md:my-7 md:px-5 item-center md:flex md:justify-center ">
+          <h2 class="items-center font-style text-md font-semibold md:text-xl md:">ShreeAyurveda is not just about treatment, it’s about empowering individuals to embrace a natural way of living. We are passionate about promoting Ayurvedic principles that have been practiced for thousands of years and making them accessible to people worldwide. Our aim is to help you achieve health that is sustainable, holistic, and in harmony with nature.</h2>
+        </div>
+    </section>
+    <hr>
+    <!-- part 3  -->
+    <section class="mt-5 mx-2 md:mx-[270px] px-3">
+      <div class="mt-5 flex flex-col md:max-w-[1140px] md:h-[435px]  md:flex-row gap-6 md:gap-10 items-start md:items-center">
+        <img class="w-full md:max-w-[441px] md:h-[343px] max-w-md border-2 rounded-md p-4 shadow-xl" src="./assests/Shatawari-4.png" alt="giloy">
+        <div class="flex flex-col">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Shatawari: (<span class=" text-[#859F3D] font-style">Asparagus racemosus</span>)   
+          </h1>
+          <p class="font-body font-semibold text-center md:text-lg text-md">
+            शतावरी (Asparagus racemosus) एक महत्वपूर्ण औषधीय पौधा है, जिसका उपयोग पारंपरिक आयुर्वेद में किया जाता है। यह विशेष रूप से महिलाओं के लिए फायदेमंद है, क्योंकि यह हार्मोनल संतुलन बनाए रखने, प्रजनन स्वास्थ्य को सुधारने और मासिक धर्म के दर्द को कम करने में मदद करता है। इसके अलावा, शतावरी शरीर की प्रतिरक्षा प्रणाली को मजबूत करती है, ऊर्जा स्तर को बढ़ाती है, और तनाव को कम करने में सहायक होती है। इसके एंटीऑक्सीडेंट गुण भी उम्र बढ़ने की प्रक्रिया को धीमा करने और त्वचा की सेहत में सुधार करने में सहायक होते हैं। कुल मिलाकर, शतावरी एक पौष्टिक और स्वास्थ्यवर्धक जड़ी-बूटी है, जिसका नियमित सेवन अनेक स्वास्थ्य लाभ प्रदान कर सकता है।
+          </p>
+      </div>
+      </div>
+      <!-- 2nd row  -->
+      <div class="mt-7 flex flex-col-reverse md:flex-row md:max-w-[1140px] md:h-[435px] gap-6 md:gap-10 items-center">
+        <div class="flex flex-col w-full md:w-1/2">
+          <h1 class="text-2xl font-bold md:text-4xl font-body text-amber-700 mb-10 md:mb-20 text-center md:text-left">
+            Aanwla:(<span class="text-[#859F3D] font-style">Emblica officinalis</span>) 
+          </h1>            
+          <p class="font-body font-semibold text-center text-md md:text-lg">
+            आंवला (Emblica officinalis) एक अत्यधिक पौष्टिक फल है, जो आयुर्वेद में औषधीय गुणों के लिए प्रसिद्ध है। यह विटामिन C, एंटीऑक्सीडेंट्स, और फाइबर का समृद्ध स्रोत है, जो प्रतिरक्षा प्रणाली को मजबूत करने, त्वचा को स्वस्थ रखने, और उम्र बढ़ने की प्रक्रिया को धीमा करने में मदद करता है। आंवला का सेवन हृदय स्वास्थ्य को सुधारने, पाचन क्रिया को बेहतर बनाने, और खून में शुगर के स्तर को नियंत्रित करने में भी सहायक होता है। इसके एंटी-इन्फ्लेमेटरी और एंटीबैक्टीरियल गुण संक्रमणों से लड़ने में मदद करते हैं। इसके नियमित सेवन से शरीर की ऊर्जा में वृद्धि होती है और यह तनाव को कम करने में भी प्रभावी है। कुल मिलाकर, आंवला एक बहुउपयोगी और स्वास्थ्यवर्धक फल है, जो समग्र स्वास्थ्य के लिए लाभकारी है।          </p>
+        </div>
+        <img class="w-full md:w-1/2 max-w-md md:max-w-[441px] md:h-[343px] border-2 rounded-md p-4 shadow-xl" src="./assests/aonla.png" alt="Ayurveda">
+      </div>  
+    </section>
+    <!-- leadship  -->
+    <section class="mt-6 my-8 border  md:mx-[270px] px-3  py-3 rounded-lg mx-5 shadow-[0_0_10px_rgba(0,0,0,0.2)] md:shadow-2xl bg-gradient-to-tr from-lime-300 md:transition-all delay-200 ease-in-out transform md:hover:scale-110  ">
+      <div class="mb-5 pb-5">
+        <div class="flex justify-center gap-2">
+          <span class="relative inline-block">
+            <h1 class="text-3xl md:text-5xl font-bold font-body pb-3 text-[#859F3D]">Leadership:</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none" class="absolute bottom-0 left-0 w-full h-9 text-[#859F3D]" aria-hidden="true">
+              <path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"
+                    fill="none" stroke="currentColor" stroke-width="8"
+                    class="animate-draw"></path>
+          </svg>   
+        </div>
+        <div class="mt-6 md:my-7 md:px-5 md:flex md:justify-center ">
+          <h2 class="px-4 items-center font-style text-md font-medium md:text-xl md:">ShreeAyurveda is led by visionary founders <span class="font-bold md:text-2xl">Sumit Rajpal</span>  and <span class="font-bold md:text-2xl">Anuj Saxena</span>, who are committed to reviving Ayurvedic traditions in modern healthcare. Together, they bring expertise and dedication to ensuring that each patient receives the best care and personalized attention.</h2>
+        </div>
+    </section>
+    <hr>
+    <section class=" mx-4 md:mx-1 px-2 flex  flex-col items-center justify-center max-w-full border-2   shadow-[0_0_10px_rgba(0,0,0,0.2)]  p-4 md:bg-gradient-to md:from-blue-300 md:via-cyan-200 md:to-transparent md:mt-24">
+      <div class="flex flex-col items-center justify-center w-full gap-3 md:flex-row md:items-center md:gap-4">
+        <div class="flex flex-col items-center gap-2 md:flex-row md:items-center md:gap-4 ">
+          <div class="flex items-center gap-2 px-3 md:gap-4">
+            <h1 class="text-6xl font-bold text-slate-500  md:text-9xl md:text-slate-500" id="counter"></h1>
+            <p class="text-2xl font-light text-slate-400 md:text-slate-800 md:text-4xl"><i class="fa-solid fa-plus"></i></p>
+          </div>
+          <h1 class="text-4xl font-semibold text-slate-500 md:text-7xl md:text-slate-500 md:font-bold">Satisfied Customer</h1>
+        </div>
+      </div>
+    </section>
+       
+    <!-- form section  -->
+    <div class="md:h-full bg-[url('./assests/aaabstract.png')]"> 
+      <section class="mt-10 mx-5 mb-10 md:w-auto md:flex  md:mx-44 ">
+        <div class="md:flex md:justify-around md:gap-5  ">
+          <div class="w-full md:w-[600px] bg-white border-2  md:m-3 p-2 shadow-gray-700 shadow-2xl hover:shadow-pink-200 rounded-md transition-all md:delay-500 delay-200 ease-in-out md:hover:scale-105 hover:border-pink-100">
+            <h1 class="flex justify-center items-center mb-5 text-3xl font-style font-bold md:mt-5">Contact Us</h1>
+            <form action="" class=" flex justify-center w-full ">
+              <!-- form 1  -->
+              <input id="" type="text" placeholder=" Name" class=" w-full md:mx-2 md:mt-5 py-2  mb-4 border-2 border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500 ">
+            </form>
+            <form action="" class="flex flex-col md:flex-row justify-between gap-4 md:gap-6 md:mx-2">
+              <input 
+                id="email1" 
+                type="email" 
+                placeholder="Email" 
+                class="w-full md:mt-5 py-2 px-3 border-2 border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500"
+              >
+              <input 
+                id="Phone" 
+                type="number" 
+                placeholder="Phone Number" 
+                class="w-full md:mt-5 py-2 px-3 border-2 border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500" 
+              >
+            </form >
+            <form action="" class="flex mt-5 flex-col md:flex-row justify-between gap-4 md:gap-6 md:mx-2">
+              <input 
+                id="City" 
+                type="text" 
+                placeholder="City" 
+                class="w-full md:mt-5 py-2 px-3 border-2 border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500"
+              >
+              <input 
+                id="" 
+                type="" 
+                placeholder="products" 
+                class="w-full md:mt-5 py-2 px-3 border-2 border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500"
+              >
+            </form>
+            <button class="w-full md:mt-6 md:px-4 mb-2 mt-5 py-2  text-white text-md border-2 bg-blue-500  border-slate-400 hover:border-slate-700 rounded-md focus:outline-none focus:border-blue-500">Submit</button>
+          </div>
+          <!-- image  -->
+          <div>
+            <img class="hidden md:block w-[700px] h-[380px] object-contain overflow-hidden transition-all delay-100 ease-in transform hover:scale-100 hover:-translate-x-20" src="./assests/form-image.png" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+    <hr>
+    <footer>
+        <!-- copyright cc section  -->
+        <div  class="pl-10   md:flex md:justify-around md:space-y-4  bg-slate-500  text-white   border-1 border-black  dark:text-black dark:bg-white "> 
+          <div class="pt-2 md:py-10 md:gap-1  hover:text-blue-400">
+              <a class="flex gap-2" href="#">
+                <span class="material-symbols-outlined">
+                  copyright
+                  </span>
+                  <p>2017.ShreeAyurveda. All Rights Reserved.</p>
+              </a>
+          </div>
+          <div class=" flex gap-2 py-5 md:flex md:space-x-3 ">
+              <a  class="md: md: hover:text-blue-400 " href="">
+                  <p>Privacy Policy</p> 
+              </a>
+              <a  class="flex gap-2 hover:text-blue-400" href="">
+                  <p>Return Policy</p> 
+              </a>
+              <a  class="flex gap-2 hover:text-blue-400" href="">
+                  <p>Term & Condition</p> 
+              </a>
+    </footer>
+</body>
+</html>
